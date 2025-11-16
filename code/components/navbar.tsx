@@ -36,9 +36,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
-              🌿
-            </div>
+            <img 
+              src="/logo.jpg" 
+              alt="Cocoon Logo" 
+              className="w-16 h-16 rounded-full object-cover group-hover:scale-110 transition-transform"
+            />
             <span className={`font-bold text-xl transition-colors ${
               isScrolled ? 'text-foreground' : 'text-white'
             }`}>

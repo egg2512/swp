@@ -56,7 +56,7 @@ export default function JourneySection() {
     <section id="quy-trinh" className="relative py-32 px-6 md:px-12 overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        className="absolute inset-0 bg-cover bg-center bg-scroll md:bg-fixed"
         style={{
           backgroundImage: 'url(/s1.jpg)',
         }}
