@@ -69,7 +69,7 @@ export default function FarmerHandsSection() {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
           <span className="inline-block px-6 py-2 bg-amber-100/80 text-amber-900 rounded-full text-sm font-semibold tracking-wide border border-amber-200">
-            NGUYÊN LIỆU TỪ NÔNG TRẠI VIỆT NAM
+            QUY TRÌNH VẬN CHUYỂN
           </span>
         </div>
             <div className={`transition-all duration-1000 delay-200 ${
