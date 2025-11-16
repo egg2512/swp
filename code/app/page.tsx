@@ -20,7 +20,7 @@ export default function Home() {
         <TechnologySection />
         <section className="relative py-16 px-6 md:px-12 overflow-hidden">
           <div 
-            className="absolute inset-0 bg-cover bg-center bg-scroll md:bg-fixed"
+            className="absolute inset-0 bg-cover bg-center bg-fixed"
             style={{
               backgroundImage: 'url(/s1.jpg)',
             }}
@@ -31,7 +31,7 @@ export default function Home() {
               <div className="bg-black/40 backdrop-blur-sm rounded-2xl border border-white/20 p-6 md:p-8 shadow-xl max-w-4xl mx-auto text-center mb-6">
                 <span className="text-4xl md:text-5xl font-bold text-white uppercase">Certificates</span>
               </div>
-              <div className="flex gap-4">
+              <div className="flex flex-col md:flex-row gap-4">
                 <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/30 backdrop-blur-sm">
                   <img src="/logo2.1.jpg" alt="Logo 1" className="max-w-full max-h-full" />
                 </div>

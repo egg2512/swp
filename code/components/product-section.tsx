@@ -32,7 +32,7 @@ export default function ProductSection() {
     <section id="san-pham" className="relative py-20 px-6 md:px-12 overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-scroll md:bg-fixed"
+        className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
           backgroundImage: 'url(/s1.jpg)',
         }}
