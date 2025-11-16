@@ -2184,13 +2184,13 @@
     }
   }
 
-  .bg-white\/30 {
-    background-color: #ffffff4d;
+  .bg-white\/60 {
+    background-color: #fff9;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/30 {
-      background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
+    .bg-white\/60 {
+      background-color: color-mix(in oklab, var(--color-white) 60%, transparent);
     }
   }
 

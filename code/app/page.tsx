@@ -32,13 +32,13 @@ export default function Home() {
                 <span className="text-4xl md:text-5xl font-bold text-white uppercase">Certificates</span>
               </div>
               <div className="flex flex-col md:flex-row gap-4">
-                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/30 backdrop-blur-sm">
+                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/60 backdrop-blur-sm">
                   <img src="/logo2.1.jpg" alt="Logo 1" className="max-w-full max-h-full" />
                 </div>
-                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/30 backdrop-blur-sm">
+                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/60 backdrop-blur-sm">
                   <img src="/logo2.2.jpg" alt="Logo 2" className="max-w-full max-h-full" />
                 </div>
-                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/30 backdrop-blur-sm">
+                <div className="w-80 h-60 border border-white rounded flex items-center justify-center bg-white/60 backdrop-blur-sm">
                   <img src="/logo2.3.jpg" alt="Logo 3" className="max-w-full max-h-full" />
                 </div>
               </div>
