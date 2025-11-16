@@ -10,7 +10,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section id="home" className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative w-full min-h-screen pt-20 flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed"

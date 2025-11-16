@@ -75,30 +75,34 @@ export default function ProductSection() {
 
           {/* Content */}
           <div>
-            <div className="space-y-4 mb-8">
-              <p className="text-lg leading-relaxed text-white/90">
-                And from the journey of fresh bitter gourds, Cocoon Bitter Gourd Makeup Remover is born — a gentle cleansing solution that balances and cools the skin, bringing a sense of purity from Vietnamese nature.
-              </p>
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl border border-white/20 p-6 shadow-xl mb-8">
+              <div className="space-y-4">
+                <p className="text-lg leading-relaxed text-white/90">
+                  And from the journey of fresh bitter gourds, Cocoon Bitter Gourd Makeup Remover is born — a gentle cleansing solution that balances and cools the skin, bringing a sense of purity from Vietnamese nature.
+                </p>
 
-              <p className="text-lg leading-relaxed text-white/90">
-                Each bottle is not just a skin care product, but a complete story: from the meticulous hands of farmers, to the closed factory with modern processes, preserving the original essence of bitter gourd.
-              </p>
+                <p className="text-lg leading-relaxed text-white/90">
+                  Each bottle is not just a skin care product, but a complete story: from the meticulous hands of farmers, to the closed factory with modern processes, preserving the original essence of bitter gourd.
+                </p>
 
-              <p className="text-lg leading-relaxed text-white/90">
-                The product embodies Cocoon's philosophy of pure vegan beauty and sustainability — accompanying you in a gentle, natural, and pure skin care journey.
-              </p>
+                <p className="text-lg leading-relaxed text-white/90">
+                  The product embodies Cocoon's philosophy of pure vegan beauty and sustainability — accompanying you in a gentle, natural, and pure skin care journey.
+                </p>
+              </div>
             </div>
 
             {/* Benefits Pills */}
-            <div className="space-y-3 mb-8">
-              {benefits.map((benefit, idx) => (
-                <div key={idx} className="flex items-center gap-3 p-3 bg-primary/10 rounded-lg border border-primary/20">
-                  <span className="text-primary font-bold text-lg">{benefit.icon}</span>
-                  <span className={benefit.highlight ? 'font-semibold text-white' : 'text-white/80'}>
-                    {benefit.text}
-                  </span>
-                </div>
-              ))}
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl border border-white/20 p-6 shadow-xl">
+              <div className="space-y-3">
+                {benefits.map((benefit, idx) => (
+                  <div key={idx} className="flex items-center gap-3 p-3 bg-primary/10 rounded-lg border border-primary/20">
+                    <span className="text-primary font-bold text-lg">{benefit.icon}</span>
+                    <span className={benefit.highlight ? 'font-semibold text-white' : 'text-white/80'}>
+                      {benefit.text}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

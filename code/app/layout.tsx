@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   title: 'Natural Vietnamese Bitter Gourd: The Gentle Cleansing Essence of Cocoon',
   description: 'Discover the secret behind pure skin from Cocoon Bitter Gourd Makeup Remover – where every drop of essence is extracted from Vietnamese nature.',
   generator: 'v0.app',
+  manifest: '/manifest.json',
+  viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: [
       {
